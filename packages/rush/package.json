@@ -1,0 +1,22 @@
+{
+  "name": "@rush/rush",
+  "version": "1.0.0",
+  "description": "cli",
+  "main": "./dist/index.js",
+  "bin": {
+    "rush": "bin/rush.js"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "rush"
+  ],
+  "author": "msc",
+  "license": "MIT"
+}
