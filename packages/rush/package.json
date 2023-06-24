@@ -12,11 +12,23 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "watch": "tsc --watch"
   },
   "keywords": [
     "rush"
   ],
   "author": "msc",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^2.2.0",
+    "@inquirer/select": "^1.2.2",
+    "chalk": "^5.2.0",
+    "commander": "^11.0.0",
+    "download-git-repo": "^3.0.2",
+    "ora": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.24"
+  }
 }

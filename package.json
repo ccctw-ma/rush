@@ -1,13 +1,14 @@
 {
   "name": "rush",
-  "version": "1.0.0",
-  "description": "create a new front-end CLI tool using Rust",
+  "version": "0.0.1",
+  "description": "create a new front-end CLI tool using Rust and ",
   "main": "index.js",
   "author": "msc",
   "email": "mashichen1999@gmail.com",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rush:build": "pnpm --filter @rush/rush build"
+    "cli:build": "pnpm --filter @rush/rush build",
+    "cli:watch": "pnpm --filter @rush/rush watch"
   },
   "keywords": [],
   "license": "MIT",
